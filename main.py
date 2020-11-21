@@ -105,6 +105,19 @@ while msg != 'done thx':
     if command == 'what is your favourite colour?':
         print("Technicolor!")
 
+    # These are the responses to greetings
+    if command == 'hi':
+        print("hi")
+    if command == 'hello':
+        print("howdy")
+    if command == 'greetings':
+        print("hello")
+    if command == 'salutations':
+        print("hiya")
+    if command == 'howdy':
+        print("hello :D")
+
+
     # dictionary check
     if 'define' in command:
         define, definition = command.split()
